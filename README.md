@@ -2,8 +2,8 @@
 
 Steps to setup the SAP HANA Studio on Eclipse:
 
-1) First check your system type (32 bit/ 64 bit). For that Click on Windows Icon  <img width="18" alt="icon" src="https://user-images.githubusercontent.com/30903014/60544011-06596600-9cd5-11e9-9a72-5b457ebb5f34.PNG">
- -> Settings -> System -> About
+1) First check your system type (32 bit/ 64 bit). Go to > Windows Icon  <img width="18" alt="icon" src="https://user-images.githubusercontent.com/30903014/60544011-06596600-9cd5-11e9-9a72-5b457ebb5f34.PNG">
+ > Settings > System > About
 <br> <br>
 <img width="918" alt="1" src="https://user-images.githubusercontent.com/30903014/60542667-b4631100-9cd1-11e9-8262-9923101ba0ca.png">
 
@@ -22,7 +22,8 @@ http://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/oxygen2
 ![3](https://user-images.githubusercontent.com/30903014/60541092-073ac980-9cce-11e9-9aa5-abcee70c1bda.png)
 <br><br>
 
-5) Change proxy configuration in Eclipse (Windows > Preferences > General > Network Connections) for:
+5) Change proxy configuration in Eclipse 
+<br> Go to Windows > Preferences > General > Network Connections for:
 	Manual
 	Server: proxy.jbssa.com
 	Port: 8080
@@ -45,7 +46,7 @@ http://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/oxygen2
 	ustxcrbwhdbi – Port: 50
 
 7) Install SAP Tools (Help > Install New Software wizard of Eclipse)
- Location http://tools.hana.ondemand.com/oxygen
+ <br> Location http://tools.hana.ondemand.com/oxygen
 	<br><br>
 ![4](https://user-images.githubusercontent.com/30903014/60541103-0c981400-9cce-11e9-8d95-553f9e8ceeac.png)
 <br><br>
@@ -76,7 +77,7 @@ Install ABAP, BW and HANA tools
 
  ![10](https://user-images.githubusercontent.com/30903014/60541155-2b96a600-9cce-11e9-95de-5ba889483980.png)
 
-Select a perspective
+Select the <b>SAP HANA Development</b> perspective
 <br><br>
 ![11](https://user-images.githubusercontent.com/30903014/60541158-2f2a2d00-9cce-11e9-9dcc-1903f5fb035a.png)
 <br><br>
