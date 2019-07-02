@@ -8,21 +8,20 @@ Steps to setup the SAP HANA Studio on Eclipse:
 <img width="918" alt="1" src="https://user-images.githubusercontent.com/30903014/60542667-b4631100-9cd1-11e9-8262-9923101ba0ca.png">
 
 <br><br>
-2) Download Eclipse neon for 32-bit the x86 version and for 64-bit x64 version.
+2) Download the required Eclipse version for 32/64 bit version.
+<br> For example:
+http://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/oxygen2
 <br><br>
 ![2](https://user-images.githubusercontent.com/30903014/60541082-fe49f800-9ccd-11e9-9ebd-c694b0a8a5a8.png)
 <br><br>
 
-	http://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/oxygen2
-	
-3) Unzip your downloaded eclipse version and start eclipse.
+3) Unzip your downloaded Eclipse version and start Eclipse.
 
 4) Select your workspace
 <br><br>
 ![3](https://user-images.githubusercontent.com/30903014/60541092-073ac980-9cce-11e9-9aa5-abcee70c1bda.png)
 <br><br>
 
- 
 5) Change proxy configuration in Eclipse (Windows > Preferences > General > Network Connections) for:
 	Manual
 	Server: proxy.jbssa.com
@@ -37,15 +36,20 @@ Steps to setup the SAP HANA Studio on Eclipse:
 ![14](https://user-images.githubusercontent.com/30903014/60541178-3a7d5880-9cce-11e9-8742-f0156ec6d389.png)
 <br><br>	
 
-6) Install SAP Tools (Help > Install New Software wizard of Eclipse)
+6) Configure HANA Servers
+	<br>
+	Ustxribwhdbd – Port: 01
+	<br>
+	ustxribwhdbq – Port: 10
+	<br>
+	ustxcrbwhdbi – Port: 50
+
+7) Install SAP Tools (Help > Install New Software wizard of Eclipse)
  Location http://tools.hana.ondemand.com/oxygen
-	
 	<br><br>
 ![4](https://user-images.githubusercontent.com/30903014/60541103-0c981400-9cce-11e9-8d95-553f9e8ceeac.png)
 <br><br>
-
 ![5](https://user-images.githubusercontent.com/30903014/60541115-115cc800-9cce-11e9-9cac-1b45c74ca3e5.png)
-
 <br><br>
 ![6](https://user-images.githubusercontent.com/30903014/60541119-1588e580-9cce-11e9-9a61-4eac26ab8693.png)
 <br><br>
@@ -53,13 +57,7 @@ Install ABAP, BW and HANA tools
 <br><br>
 ![7](https://user-images.githubusercontent.com/30903014/60541131-1de12080-9cce-11e9-8e07-8790e6eadd97.png)
 <br><br>
-
-7) Configure HANA Servers
-
-	Ustxribwhdbd – Port: 01
-	ustxribwhdbq – Port: 10
-	ustxcrbwhdbi – Port: 50
- 
+  
 8) Installation Overview
 <br><br>
 ![8](https://user-images.githubusercontent.com/30903014/60541142-22a5d480-9cce-11e9-954b-c0ad9fd9d4e4.png)
@@ -83,7 +81,6 @@ Select a perspective
 ![11](https://user-images.githubusercontent.com/30903014/60541158-2f2a2d00-9cce-11e9-9dcc-1903f5fb035a.png)
 <br><br>
 
-
-
+<b> Good Work! You have successfully setup the SAP HANA Studio on Eclipse.
 
 
