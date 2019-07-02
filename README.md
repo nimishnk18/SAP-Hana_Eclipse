@@ -1,8 +1,20 @@
 # SAP-Hana_Eclipse
 
 Steps to setup the SAP HANA Studio on Eclipse:
-1)	Download Eclipse (32bit / 64bit):
-a.	http://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/oxygen2
+
+1)First check your system type (32 bit/ 64 bit). For that Click on Windows Icon  <img width="18" alt="icon" src="https://user-images.githubusercontent.com/30903014/60544011-06596600-9cd5-11e9-9a72-5b457ebb5f34.PNG">
+ -> Settings -> System -> About
+<br> <br>
+<img width="918" alt="1" src="https://user-images.githubusercontent.com/30903014/60542667-b4631100-9cd1-11e9-8262-9923101ba0ca.png">
+
+<br><br>
+Download Eclipse neon for 32-bit the x86 version and for 64-bit x64 version.
+<br><br>
+![2](https://user-images.githubusercontent.com/30903014/60541082-fe49f800-9ccd-11e9-9ebd-c694b0a8a5a8.png)
+<br><br>
+
+	http://www.eclipse.org/downloads/packages/eclipse-ide-java-developers/oxygen2
+ 
 2)	Change proxy configuration in Eclipse (Windows > Preferences > General > Network Connections) for:
 a.	Manual
 b.	Server: proxy.jbssa.com
@@ -31,26 +43,8 @@ c.	ustxcrbwhdbi – Port: 50
 
 
 
-I also found an YouTube video with the Step-by-Step, just make sure the proxy configuration (Step 3) was done before 3:10 min from the video.
-https://www.youtube.com/watch?v=EemEcQdMUuk
-
-Bonus video – How to configure proxy in Eclipse:
-
-https://www.youtube.com/watch?v=4-XC5583bBA
 
 
-
-
-
-First check your system type 32bit or 64 bit. Right-click on computer – prereferences
-<br> <br>
-<img width="918" alt="1" src="https://user-images.githubusercontent.com/30903014/60542667-b4631100-9cd1-11e9-8262-9923101ba0ca.png">
-
-<br><br>
-Download eclipse neon for 32-bit the x86 version and for 64-bit x64 version.
-<br><br>
-![2](https://user-images.githubusercontent.com/30903014/60541082-fe49f800-9ccd-11e9-9ebd-c694b0a8a5a8.png)
-<br><br>
 
 unzip your downloaded eclipse version and start eclipse.
 if eclipse doesnt start please update to version 1.8+ – here
